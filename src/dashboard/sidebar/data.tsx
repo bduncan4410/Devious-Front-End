@@ -1,9 +1,7 @@
-import { DocIcon } from "./icons/DocIcon";
-import { HomeIcon } from "./icons/HomeIcon";
-import { StatusIcon } from "./icons/StatusIcon";
 import { CreditIcon } from "./icons/CreditIcon";
-import { ArchiveIcon } from "./icons/ArchiveIcon";
+import { HomeIcon } from "./icons/HomeIcon";
 import { SettingsIcon } from "./icons/SettingsIcon";
+import { StatusIcon } from "./icons/StatusIcon";
 
 export const data = [
   {

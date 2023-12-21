@@ -3,8 +3,6 @@ import { Content } from "../Content";
 export default function HomePage() {
     return (
         <Content title="Home">
-            <div className="mx-auto">
-                <div className="w-full rounded-3xl bg-slate-900 p-6 lg:w-full">
                     <div className="mb-8 flex items-center justify-between  text-white">
                         <p className="text-2xl font-bold">Welcome to <span className="text-orange-600">Devious Gaming Community</span>!</p>
                     </div>
@@ -16,8 +14,7 @@ export default function HomePage() {
                     Doloribus odio inventore officia, laudantium dolorum illo nihil quisquam nostrum rerum enim quas voluptate rem accusamus voluptas cupiditate placeat. Incidunt magni molestias exercitationem nihil possimus minus ut cupiditate eos non.
                     Quis, molestias odio doloribus, amet nemo quibusdam, architecto praesentium placeat mollitia beatae optio deserunt sint voluptatum iure. Facilis provident ut voluptates laudantium ipsum officiis illo quod, esse iusto suscipit culpa?
                     Est voluptatibus eum rem quis nostrum earum nemo beatae minima animi accusantium distinctio vel sequi nulla reiciendis non qui deleniti mollitia corrupti dolorem, veritatis in, corporis eos porro. Ab, veritatis.</p>
-                </div>
-            </div>
+
         </Content>
     )
 }

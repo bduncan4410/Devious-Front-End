@@ -7,7 +7,7 @@ export default function ServerStats() {
       {title: "Discord Members", value: discordMembers},
       {title: "Staff Online", value: staffOnline}
     ]
-    return (<div className="flex flex-wrap text-white justify-center">
+    return (<div className="grid grid-cols-3 text-white">
     {stats.map((stat, index) => {
       return <Stat key={index} title={stat.title} value={stat.value} />
     }
@@ -18,7 +18,7 @@ interface IStatProps { title:string, value:string | number }
 
 function Stat(props:IStatProps) {
   const {title, value} = props;
-  return (<div className="mx-2 p-1 bg-slate-700 rounded-lg">
+  return (<div className="mx-2 p-1 rounded-lg">
   <div className="text-2xl font-bold align-middle text-center">{value}</div>
   <div className="align-middle text-center">{title}</div>
 </div>)
